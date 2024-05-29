@@ -20,7 +20,7 @@ filename_model = 'modelo.pkl'
 with open(filename_model, 'wb') as archivo:
     pickle.dump(modelo_SVC, archivo)
 
-print("Listo!")
+print("Modelo generado!")
 
 
 
